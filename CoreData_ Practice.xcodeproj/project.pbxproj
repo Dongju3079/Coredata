@@ -16,7 +16,7 @@
 		52004D412A84C0020093E17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52004D3F2A84C0020093E17E /* LaunchScreen.storyboard */; };
 		52004D4E2A84CB1B0093E17E /* MemoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52004D4C2A84CB1B0093E17E /* MemoData+CoreDataClass.swift */; };
 		52004D4F2A84CB1B0093E17E /* MemoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52004D4D2A84CB1B0093E17E /* MemoData+CoreDataProperties.swift */; };
-		52004D512A84CB4B0093E17E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52004D502A84CB4B0093E17E /* File.swift */; };
+		52004D512A84CB4B0093E17E /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52004D502A84CB4B0093E17E /* ColorData.swift */; };
 		52004D532A84CB640093E17E /* MemoCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52004D522A84CB640093E17E /* MemoCoreData.swift */; };
 		52004D552A84DA030093E17E /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52004D542A84DA020093E17E /* MemoCell.swift */; };
 		52004D572A84DA2A0093E17E /* EditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52004D562A84DA2A0093E17E /* EditController.swift */; };
@@ -39,7 +39,7 @@
 		52004D422A84C0020093E17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52004D4C2A84CB1B0093E17E /* MemoData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataClass.swift"; sourceTree = "<group>"; };
 		52004D4D2A84CB1B0093E17E /* MemoData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		52004D502A84CB4B0093E17E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		52004D502A84CB4B0093E17E /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
 		52004D522A84CB640093E17E /* MemoCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCoreData.swift; sourceTree = "<group>"; };
 		52004D542A84DA020093E17E /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		52004D562A84DA2A0093E17E /* EditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditController.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		52004D4B2A84CADA0093E17E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				52004D502A84CB4B0093E17E /* File.swift */,
+				52004D502A84CB4B0093E17E /* ColorData.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			files = (
 				52004D362A84C0010093E17E /* ViewController.swift in Sources */,
 				52004D4E2A84CB1B0093E17E /* MemoData+CoreDataClass.swift in Sources */,
-				52004D512A84CB4B0093E17E /* File.swift in Sources */,
+				52004D512A84CB4B0093E17E /* ColorData.swift in Sources */,
 				52004D322A84C0010093E17E /* AppDelegate.swift in Sources */,
 				52004D4F2A84CB1B0093E17E /* MemoData+CoreDataProperties.swift in Sources */,
 				525055F62A85A92700FBD618 /* CompletionController.swift in Sources */,
